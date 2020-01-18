@@ -48,5 +48,8 @@
     <ClCompile Include="NameSp1.cpp">
       <Filter>소스 파일\200119</Filter>
     </ClCompile>
+    <ClCompile Include="200119Q1.cpp">
+      <Filter>소스 파일\200119</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
