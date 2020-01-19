@@ -11,31 +11,29 @@ c언어에서는 참 거짓을 나탈때 참은 0이 아닌 모든 숫자로(그러나 컴퓨터가
 그렇다고 해서 자료 자체가 1,0정수를 의미하지는 않습니다.
 
 그리고 이 자료는 조건문 등에 조건식 대신 사용할 수도 있습니다.
-또한 말 그대로 자료형이기 때문에 return 문의 반환 자료로도 지정하고 
+또한 말 그대로 자료형이기 때문에 return 문의 반환 자료로도 지정하고
 사용할 수 있습니다.
 */
 
-#include <cstdio>
 #include <iostream>
 using namespace std;
 
+bool IsTrue(int num) {
+	if (num < 0) return false;
+	else return true;
+}
+
 int main(void) {
-	int num = 3;
-	int i=0;
+	bool isTrue;
+	int num;
 
-	cout << "true : " << true << endl;
-	cout << "flase : " << false << endl;
+	cout << "숫자를 입력해주세요 : ";
+	cin >> num;
 
-	while (true)
-	{
-		cout << i++ << ' ';
-		if (i > num) break;
-	}
-	cout << endl;
-	cout << "sizeof 1 : " << sizeof(1) << endl;
-	cout << "sizeof 0 : " << sizeof(0) << endl;
-	cout << "sizeof true : " << sizeof(true) << endl;
-	cout << "sizeof false : " << sizeof(false) << endl;
+	isTrue = IsTrue(num);
+	if (isTrue) cout << "양수입니다" << endl;
+	else cout << "양수가 아닙니다" << endl;
+
 	system("pause");
 	return 0;
 }
