@@ -87,5 +87,8 @@
     <ClCompile Include="RefArrElem.cpp">
       <Filter>소스 파일\200119</Filter>
     </ClCompile>
+    <ClCompile Include="RefPtr.cpp">
+      <Filter>소스 파일\200119</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
