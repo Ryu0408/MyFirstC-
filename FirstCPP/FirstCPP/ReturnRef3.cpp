@@ -11,19 +11,20 @@ RefReturnTwo.cpp
 
 또한 일반자료 리턴을 일반으로 받는 경우까지 고려하셔야 참조자에 대해
 완벽하게 파악할 수 있습니다.
-*/ 
+RefReturn3.cpp
+*/
 
 #include <iostream>
 using namespace std;
 
-int& ReturnRef2(int& ref) {
+int& ReturnRef3(int& ref) {
 	ref++;
 	return ref;
 }
 
 int main(void) {
 	int num1 = 1;
-	int num2 = ReturnRef2(num1);
+	int& num2 = ReturnRef3(num1);
 
 	num1 += 1;
 	num2 += 100;
