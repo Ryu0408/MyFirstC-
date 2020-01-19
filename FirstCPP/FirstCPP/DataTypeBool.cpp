@@ -19,7 +19,7 @@ c언어에서는 참 거짓을 나탈때 참은 0이 아닌 모든 숫자로(그러나 컴퓨터가
 using namespace std;
 
 bool IsTrue(int num) {
-	if (num < 0) return false;
+	if (num <= 0) return false;
 	else return true;
 }
 

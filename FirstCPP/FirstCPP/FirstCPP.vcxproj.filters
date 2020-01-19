@@ -81,5 +81,8 @@
     <ClCompile Include="DataTypeBool.cpp">
       <Filter>소스 파일\200119</Filter>
     </ClCompile>
+    <ClCompile Include="Referen.cpp">
+      <Filter>소스 파일\200119</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
