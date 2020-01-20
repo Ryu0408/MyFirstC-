@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\200119">
       <UniqueIdentifier>{4a34669d-1da3-4530-a2e1-ee53d83552ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\200120">
+      <UniqueIdentifier>{e2c9d601-cbd1-4dfa-a6a2-dd51ff187170}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWord.cpp">
@@ -107,6 +110,9 @@
     </ClCompile>
     <ClCompile Include="NewConstructor.cpp">
       <Filter>소스 파일\200119</Filter>
+    </ClCompile>
+    <ClCompile Include="StructCar.cpp">
+      <Filter>소스 파일\200120</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
