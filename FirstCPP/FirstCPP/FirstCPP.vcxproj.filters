@@ -22,6 +22,12 @@
     <Filter Include="소스 파일\200120">
       <UniqueIdentifier>{e2c9d601-cbd1-4dfa-a6a2-dd51ff187170}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\200121">
+      <UniqueIdentifier>{8adfdf3a-1e38-4c7e-89b3-933bd519382f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\200121">
+      <UniqueIdentifier>{db740d52-bcb9-415d-a0ff-99dfb4daed7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWord.cpp">
@@ -123,5 +129,16 @@
     <ClCompile Include="ClassCar.cpp">
       <Filter>소스 파일\200120</Filter>
     </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>소스 파일\200121</Filter>
+    </ClCompile>
+    <ClCompile Include="CarMain.cpp">
+      <Filter>소스 파일\200121</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h">
+      <Filter>헤더 파일\200121</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

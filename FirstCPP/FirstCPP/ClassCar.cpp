@@ -18,7 +18,8 @@ public은 단어 그대로 외부에 공개된 요소입니다.
 그래서 클래스 내부가 아닌 외부에서도 접근이 가능합니다.
 */
 
-
+#define _CRT_SECURE_NO_WARNINGS
+#include <cstring>
 #include <iostream>
 using namespace std;
 
