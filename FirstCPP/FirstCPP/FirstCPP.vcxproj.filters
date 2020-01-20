@@ -120,5 +120,8 @@
     <ClCompile Include="StructCarEnum.cpp">
       <Filter>소스 파일\200120</Filter>
     </ClCompile>
+    <ClCompile Include="ClassCar.cpp">
+      <Filter>소스 파일\200120</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
