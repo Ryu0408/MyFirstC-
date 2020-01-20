@@ -7,6 +7,7 @@ struct 구조체명{
 그래서 먼저 C언어의 구조체를 살펴보겠습니다.
 */
 
+
 #include <iostream>
 using namespace std;
 

@@ -114,5 +114,8 @@
     <ClCompile Include="StructCar.cpp">
       <Filter>소스 파일\200120</Filter>
     </ClCompile>
+    <ClCompile Include="StructCarFunc.cpp">
+      <Filter>소스 파일\200120</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
