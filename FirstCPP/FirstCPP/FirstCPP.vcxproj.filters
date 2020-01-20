@@ -135,6 +135,9 @@
     <ClCompile Include="CarMain.cpp">
       <Filter>소스 파일\200121</Filter>
     </ClCompile>
+    <ClCompile Include="BananaTrade.cpp">
+      <Filter>소스 파일\200121</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
