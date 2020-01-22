@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\200122">
       <UniqueIdentifier>{aa2acf6c-ba19-40e6-af98-2956687e6376}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\200122">
+      <UniqueIdentifier>{8e47749c-eb64-436b-b308-09c25304a38b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWord.cpp">
@@ -144,10 +147,25 @@
     <ClCompile Include="Over.cpp">
       <Filter>소스 파일\200122</Filter>
     </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>소스 파일\200122</Filter>
+    </ClCompile>
+    <ClCompile Include="Rec.cpp">
+      <Filter>소스 파일\200122</Filter>
+    </ClCompile>
+    <ClCompile Include="RecFaultTestcpp.cpp">
+      <Filter>소스 파일\200122</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
       <Filter>헤더 파일\200121</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>헤더 파일\200122</Filter>
+    </ClInclude>
+    <ClInclude Include="Rec.h">
+      <Filter>헤더 파일\200122</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
