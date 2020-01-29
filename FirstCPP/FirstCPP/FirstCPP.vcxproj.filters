@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\200123">
       <UniqueIdentifier>{13b4871f-4b3e-4780-8956-8c748def0cb8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\200129">
+      <UniqueIdentifier>{a0ed621b-3b2f-4a29-871a-11549ce09f44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWord.cpp">
@@ -161,6 +164,9 @@
     </ClCompile>
     <ClCompile Include="NoCapsule.cpp">
       <Filter>소스 파일\200123</Filter>
+    </ClCompile>
+    <ClCompile Include="Capsule.cpp">
+      <Filter>소스 파일\200129</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
