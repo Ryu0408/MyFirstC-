@@ -171,6 +171,9 @@
     <ClCompile Include="Constructor1.cpp">
       <Filter>소스 파일\200129</Filter>
     </ClCompile>
+    <ClCompile Include="Constructor2.cpp">
+      <Filter>소스 파일\200129</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
