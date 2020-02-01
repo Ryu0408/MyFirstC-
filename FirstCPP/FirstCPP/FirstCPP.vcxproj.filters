@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\200129">
       <UniqueIdentifier>{a0ed621b-3b2f-4a29-871a-11549ce09f44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\200201">
+      <UniqueIdentifier>{42dc73e3-ea2c-48f6-9a5f-fc3f45799fa6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWord.cpp">
@@ -173,6 +176,9 @@
     </ClCompile>
     <ClCompile Include="Constructor2.cpp">
       <Filter>소스 파일\200129</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructor.cpp">
+      <Filter>소스 파일\200201</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
