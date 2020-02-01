@@ -183,6 +183,9 @@
     <ClCompile Include="ThisKeyword.cpp">
       <Filter>소스 파일\200201</Filter>
     </ClCompile>
+    <ClCompile Include="UseThisKeyworld.cpp">
+      <Filter>소스 파일\200201</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
