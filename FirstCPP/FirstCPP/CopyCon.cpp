@@ -26,6 +26,7 @@ int main(void) {
 	cout << "老馆 积己磊 c1 按眉 积己" << endl;
 	CopyCon c2 = c1;
 	cout << "汗荤 积己磊 c2 按眉 汗荤" << endl;
+	
 	c1.ShowData();
 	c2.ShowData();
 	return 0;

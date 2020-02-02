@@ -195,6 +195,9 @@
     <ClCompile Include="CopyCon.cpp">
       <Filter>소스 파일\200202</Filter>
     </ClCompile>
+    <ClCompile Include="ShallowCpoy.cpp">
+      <Filter>소스 파일\200202</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
