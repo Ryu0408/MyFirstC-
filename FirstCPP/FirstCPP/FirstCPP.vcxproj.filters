@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\200202">
       <UniqueIdentifier>{4a25555e-9da1-4a9d-ae4d-225e6cdca40e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\200204">
+      <UniqueIdentifier>{13298878-7c90-4ffa-9017-aec9ef277a96}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWord.cpp">
@@ -200,6 +203,9 @@
     </ClCompile>
     <ClCompile Include="DeepCopy.cpp">
       <Filter>소스 파일\200202</Filter>
+    </ClCompile>
+    <ClCompile Include="Temporory.cpp">
+      <Filter>소스 파일\200204</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
